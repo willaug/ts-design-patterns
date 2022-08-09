@@ -1,0 +1,35 @@
+{
+  "name": "ts-design-patterns",
+  "version": "1.0.0",
+  "description": "some design patterns in typescript",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx lerna run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willaug/ts-design-patterns.git"
+  },
+  "keywords": [
+    "design-patterns",
+    "design",
+    "patterns",
+    "typescript",
+    "javascript",
+    "ts",
+    "js"
+  ],
+  "author": "willaug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willaug/ts-design-patterns/issues"
+  },
+  "homepage": "https://github.com/willaug/ts-design-patterns#readme",
+  "devDependencies": {
+    "lerna": "^5.4.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
