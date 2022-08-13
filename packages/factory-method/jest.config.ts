@@ -1,5 +1,5 @@
 export default {
-  verbose: false,
+  verbose: true,
   clearMocks: true,
   preset: 'ts-jest',
   collectCoverage: true,
